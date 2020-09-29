@@ -1,0 +1,6 @@
+.Player{
+    display: inline-block;
+    border: 1px, solid,gray;
+    width: 33%;
+    background-color: red;
+}
