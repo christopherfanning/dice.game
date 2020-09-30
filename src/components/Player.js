@@ -1,11 +1,10 @@
 import React from 'react';
 import './Player.css';
 
-//TODO Block inline me. 
 
-const Player = () => {
+const Player = (props) => {
     return (
-        <div className="Player">
+        <div className={ props.nameMe }>
             <h2>I'm a player!</h2>
         </div>
     )
