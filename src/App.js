@@ -5,6 +5,8 @@ import Button from "@material-ui/core/Button";
 import Player from "./components/Player";
 import Game from "./components/Game";
 import "./components/Player.css";
+import TurnHandler from "./components/TurnHandler";
+
 
 class App extends Component {
   state = {
